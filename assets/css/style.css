@@ -74,6 +74,7 @@ section{
 
 
 .work-experience{
+    margin-left: 15px;
     display: flex;
     width: 20%;
 }
@@ -109,4 +110,18 @@ section{
 .work-experience-job-description{
     margin-top: 30px;
     margin-left: 10px;
+}
+
+#projects{
+    display: flex;
+    background-color: #8FC0A9;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+}
+
+.projects-arrow-part{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
 }
