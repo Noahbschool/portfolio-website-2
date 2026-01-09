@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    outline: red solid 1px;
 }
 
 @font-face {
@@ -70,16 +69,13 @@ section{
     background-color: #8FC0A9;
     width: 100%;
     height: 500px;
-    align-items: flex-start;
-    justify-content: flex-start;
+    flex-direction: column;
 }
 
 
 .work-experience{
     display: flex;
-    flex-direction: row;
     width: 20%;
-    
 }
 
 .work-experience-arrow{
@@ -89,17 +85,28 @@ section{
     height: 17px;
 }
 
-.work-soon-placement{
-    width: 100%;
+.work-experience-placement{
     display: flex;
-    place-self: center;
-    margin-left: -20%;
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #C8D5B9;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-left: 20px;
 }
 
-.work-experience-soon{
+.work-experience-logo{
+    width: 300px;
+    height: 100px;
+}
 
-    width: 100%;
-    font-size: 60px;
+.work-experience-job-title{
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+}
+
+.work-experience-job-description{
+    margin-top: 30px;
+    margin-left: 10px;
 }
