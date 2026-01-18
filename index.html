@@ -30,7 +30,9 @@
                 <a class="header-link" href="#contact">
                     <h3>contact me</h3>
                 </a>
-
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-toggle">☀️</span>
+                </button>
             </div>
         </nav>
     </header>
@@ -48,7 +50,7 @@
                 <h4>Work experience</h4>
                 <img class="work-experience-arrow" src="assets/img/Arrow-1.png" alt="arrow" />
             </div>
-            <div class="projects=wrapper">
+            <div class="projects-wrapper">
                 <div id="projectsContainer">
                     <div class="work-experience-placement">
                         <img class="work-experience-logo" src="assets/img/Jumbo_Logo.svg.png" alt="Jumbo Logo">
@@ -56,7 +58,8 @@
                         <h5 class="work-experience-job-description">Work experience: 1 month as of dec 2025. <br> I
                             mostly
                             stock
-                            shelves in that section but i also sometimes work in the kitchen by packaging stuff. </h5>
+                            shelves in that section but i also sometimes work in the kitchen by packaging stuff.
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -73,7 +76,8 @@
                         <h3 class="work-experience-job-title">Mastermind</h3>
                         <h5 class="work-experience-job-description">Mastermind was a project where we had to make a
                             console
-                            application where you could guess colors in this i had made it so that you could guess the
+                            application where you could guess colors in this i had made it so that you could guess
+                            the
                             colors and it would decide if you would win or not </h5>
                     </div>
                     <div class="work-experience-placement">
@@ -86,7 +90,8 @@
                     <div class="work-experience-placement">
                         <img class="placeholder-image" src="assets/img/schoolwebsite.png" alt="schoolwebsite">
                         <h3 class="work-experience-job-title">School Website</h3>
-                        <h5 class="work-experience-job-description">This was a project that we had to do in groups where
+                        <h5 class="work-experience-job-description">This was a project that we had to do in groups
+                            where
                             we
                             had to make a school website from scratch</h5>
                     </div>
@@ -115,6 +120,16 @@
                     <h5 class="contact-text">Mail me!</h5>
                 </div>
             </a>
+<script>
+    const button = document.getElementById('contact-button');
+
+    button.addEventListener('click', () => {
+        // Log immediately
+        console.log('Mail button pressed!');
+        // Optional: tiny delay to make sure mail client still opens
+        setTimeout(() => {}, 50);
+    });
+</script>
         </section>
     </main>
     <footer>
